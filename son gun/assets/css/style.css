@@ -1,0 +1,81 @@
+#Home .head-left {
+  width: 50%;
+  height: 650px;
+  background-color: rgb(212, 234, 245);
+  padding: 10px 100px;
+}
+#Home .head-left h1, #Home .head-left h4 {
+  color: rgb(5, 44, 67);
+}
+#Home .head-left p {
+  color: rgb(168, 168, 168);
+}
+#Home .head-left button {
+  padding: 15px 25px;
+  background-color: white;
+  color: rgb(5, 44, 67);
+  border-radius: 30px;
+}
+#Home .head-right {
+  width: 50%;
+  height: 650px;
+  background-image: url(https://preview.colorlib.com/theme/furnish/images/bg_2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#Home .head-right nav ul li {
+  display: inline-block;
+  padding: 20px 10px;
+}
+#Home .head-right nav ul li a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+}
+
+#About {
+  width: 100%;
+  height: 680px;
+  background-image: url(https://preview.colorlib.com/theme/furnish/images/bg_4.jpg);
+  background-size: cover;
+}
+#About .About-text {
+  float: right;
+  width: 600px;
+  padding: 200px 0px 0px 0px;
+}
+#About .About-text p {
+  color: rgb(168, 168, 168);
+}
+#About .About-text span {
+  color: rgb(196, 167, 114);
+}
+#About .About-text span i {
+  font-size: 80px;
+  color: rgb(196, 167, 114);
+}
+#About .About-text .watch .watch-text {
+  padding: 30px;
+}
+
+#Collection {
+  padding: 100px;
+  width: 100%;
+  height: 680px;
+  background-color: rgb(247, 247, 247);
+}
+#Collection .collec-text p {
+  color: rgb(168, 168, 168);
+}
+#Collection .cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#Collection .img-flex {
+  width: 200px;
+}
+#Collection .img-flex img {
+  width: 60px;
+  border-radius: 50%;
+}
